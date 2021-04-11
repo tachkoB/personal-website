@@ -23,7 +23,14 @@ export default () => {
   }, [isCopied])
 
   const handleClick = () => {
-    navigator.clipboard.writeText(email)
+    const ua = window.navigator.userAgent
+    const isIE = /MSIE|Trident/.test(ua)
+
+    if (isIE) {
+      return (window.location.href = "https://www.google.com/chrome/")
+    }
+
+    https: navigator.clipboard.writeText(email)
     setIsCopied(true)
   }
 
