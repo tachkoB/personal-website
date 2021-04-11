@@ -30,7 +30,7 @@ export default () => {
       return (window.location.href = "https://www.google.com/chrome/")
     }
 
-    https: navigator.clipboard.writeText(email)
+    navigator.clipboard.writeText(email)
     setIsCopied(true)
   }
 
