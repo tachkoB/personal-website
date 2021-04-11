@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import github from "../../public/github-light-big.png"
+import github from "../images/github-light-big.png"
 
 export default () => {
   const yo = "https://www.google.com/s2/favicons?sz=64&domain_url=linkedin.com"
