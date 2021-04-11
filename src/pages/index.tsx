@@ -41,7 +41,7 @@ export default () => {
           <div className="sm:flex sm:flex-row-reverse sm:items-center">
             <div className="sm:px-2">
               <h1 className="px-4 mt-2 text-2xl text-left text-primary  font-bold sm:text-3xl">
-                Andrej Tačigin
+                Only happy when learning new things
               </h1>
               <p className="px-4 mt-8 text-lg text-secondary sm:mt-8">
                 Frontend developer, born in Zagreb, based in Berlin.
