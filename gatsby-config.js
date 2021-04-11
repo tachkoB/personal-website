@@ -5,7 +5,7 @@ const { theme } = resolveConfig(tailwindConfig)
 
 module.exports = {
   siteMetadata: {
-    title: "AT",
+    title: "Frontend Web Developer",
     author: "Andrej Tacigin",
     description: "My personal website",
   },
@@ -19,7 +19,7 @@ module.exports = {
         start_url: "/",
         background_color: theme.colors.white,
         theme_color: theme.colors.teal[500],
-        icon: "static/icon.svg",
+        icon: "./src/images/logo.png",
       },
     },
     {
