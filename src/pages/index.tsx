@@ -39,8 +39,8 @@ export default () => {
       <Layout>
         <main className="max-w-4xl flex-grow mx-auto flex flex-col justify-around p-8">
           <div className="sm:flex sm:flex-row-reverse sm:items-center">
-            <div className="sm:px-2">
-              <h1 className="px-4 mt-2 text-2xl text-left text-primary  font-bold sm:text-3xl">
+            <div className="sm:px-2 ">
+              <h1 className="px-4 mt-2 text-2xl text-primary font-bold sm:text-3xl text-center md:text-left">
                 Only happy when learning new things
               </h1>
               <p className="px-4 mt-8 text-lg text-secondary sm:mt-8">
@@ -48,7 +48,7 @@ export default () => {
               </p>
               <p className="px-4 mt-8 text-lg text-secondary sm:mt-8">
                 Professional experience with React with Typescript, Redux, Redux
-                Saga, Material UI, Styled components..
+                Saga, Material UI, Styled components, Gatsby, Formik..
               </p>
               <p className="px-4 mt-8 text-lg text-secondary  sm:mt-8">
                 Big fan of React Testing library and Cypress.
