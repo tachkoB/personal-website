@@ -40,10 +40,10 @@ export default () => {
         <main className="max-w-4xl flex-grow mx-auto flex flex-col justify-around p-8">
           <div className="sm:flex sm:flex-row-reverse sm:items-center">
             <div className="sm:px-2">
-              <h1 className="px-4 pt-2 text-2xl text-left text-primary  font-bold sm:text-3xl">
+              <h1 className="px-4 mt-2 text-2xl text-left text-primary  font-bold sm:text-3xl">
                 Andrej Tačigin
               </h1>
-              <p className="px-4 pt-10 mt-8 text-lg text-secondary sm:mt-8">
+              <p className="px-4 mt-8 text-lg text-secondary sm:mt-8">
                 Frontend developer, born in Zagreb, based in Berlin.
               </p>
               <p className="px-4 mt-8 text-lg text-secondary sm:mt-8">
@@ -58,7 +58,7 @@ export default () => {
               </p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex mt-8">
             <div className="w-6/12 content-center">
               <a
                 href="https://www.linkedin.com/in/andrej-tacigin-tachko/"
@@ -74,7 +74,7 @@ export default () => {
             </div>
           </div>
 
-          <div className="flex items-center mx-2 text-secondary shadow-xs sm:mx-auto">
+          <div className="flex items-center mx-2 text-secondary shadow-xs mx-auto mt-8">
             <p>
               Get in touch through{"  "}
               <span onClick={handleClick} className="cursor-pointer">
