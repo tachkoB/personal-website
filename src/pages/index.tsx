@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/Layout"
 
 // Styles
-import "../css/tailwind.css"
+import "../styles/site.css"
 
 // Assets
 import github from "../images/github-light-big.png"
