@@ -1,5 +1,12 @@
 import React from "react"
+
+// Components
 import Layout from "../components/Layout"
+
+// Styles
+import "../css/tailwind.css"
+
+// Assets
 import github from "../images/github-light-big.png"
 
 export default () => {
