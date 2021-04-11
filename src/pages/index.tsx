@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-import heroImage from "../images/hero-image.svg"
 
 export default () => {
   return (
@@ -12,15 +11,9 @@ export default () => {
               My website yall
             </h1>
             <p className="px-4 mt-8 text-lg text-gray-700 sm:mt-8">
-              Start your Gatsby and Tailwind CSS project easily with this Gatsby
-              Starter
+              Born in Zagreb, based in Berlin.
             </p>
           </div>
-          <img
-            className="w-full max-w-lg mt-16 mx-auto sm:w-1/2"
-            src={heroImage}
-            alt="Gatsby and Tailwind CSS together"
-          />
         </div>
         <div className="flex items-center p-3 mx-2 bg-white rounded shadow-xs sm:mx-auto"></div>
       </main>
